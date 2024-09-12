@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Home from '../page'
 
-const Shoppage = () => {
-  return (
+function Contactpage() {
+
+    return (
         <div>
             <Home></Home>
-            <h1>This is Shop page</h1>
+            <h1>This is Contactpage</h1>
         </div>
   )
 }
 
-export default Shoppage
+export default Contactpage
